@@ -20,6 +20,13 @@ Version: 4.3.0
 #masthead .col-full {
     padding: 0;
 }
+.site-header {
+    border-bottom: none !important; /* Removes the border for all views */
+}
+
+.site-header {
+    border-bottom: none !important; /* Removes the border for all views */
+}
 
 
 /* Import Google Fonts */
