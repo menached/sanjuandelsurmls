@@ -50,7 +50,25 @@ jQuery(document).ready(function($) {
     $('.woocommerce-product-gallery').trigger('zoom.destroy');
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const widgetRegion = document.querySelector('.header-widget-region');
+    if (widgetRegion && widgetRegion.innerText.trim() === '') {
+        widgetRegion.style.display = 'none';
+    }
+});
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const masthead = document.getElementById('masthead');
+    const colFull = masthead.querySelector('.col-full');
+
+    if (colFull && colFull.innerText.trim() === '') {
+        colFull.style.display = 'none';
+    }
+});
+
+</script>
 
 </body>
 </html>
