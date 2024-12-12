@@ -1,0 +1,594 @@
+/*
+Theme Name: SanJuanDelSurMLS Child
+Theme URI: https://woocommerce.com/storefront/
+Template: storefront
+Author: Automattic
+Author URI: https://woocommerce.com/
+Description: Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,accessibility-ready,rtl-language-support,footer-widgets,sticky-post,theme-options,editor-style
+Version: 4.3.0.1688839943
+Updated: 2023-07-08 12:12:23
+
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+/* Default font size for product titles */
+.product-title {
+    font-size: 18px;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 480px) {
+	.summary.entry-summary > h1 {font-size:25px;}
+}
+
+
+
+
+#block-148 > div > div {color:#1e73be!important;text-align:center;}
+
+.statslinks{font-size:.6em;color:#000;}
+
+
+.su-heading-inner {
+    font-family: 'Exo 2', sans-serif;
+}
+#components-form-token-input-2::placeholder {
+    font-size: 10px;
+}
+
+#components-form-token-input-3::placeholder {
+    font-size: 10px;
+}
+
+#block-138 > div > div > div,#block-137 > div > div > div {background-color:#eee;padding:15px;border:1px solid black!important;border-radius:3px}
+
+#block-140 {border:1px solid black;border-radius:3px;}
+
+@media screen and (max-width: 480px) {
+    .wrapelements {
+        display: flex!important;
+        flex-wrap: wrap;
+    }
+    .wrapelements input[type="search"] {
+        width: 50%!important;
+        margin-bottom: 2px;
+    }
+    .wrapelements button {
+        width: 30%!important;
+    }
+}
+
+
+
+.inputwidth:focus, .inputwidth:hover {
+        outline-color: #1e73be!important; /* Change the color to your desired color */
+}
+
+#woocommerce-product-search-field-0:focus, #wp-block-search__input-1:hover {outline-color:#1e73be;}
+#woocommerce-product-search-field-0:hover {
+  outline-color: #1e73be!important;
+}
+
+
+@media (min-width: 481px){
+	form.searchform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.searchform .wrapelements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.searchform .inputwidth {
+    flex-grow: 1;
+    width: calc(100% - 120px);
+    max-width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.searchform .inputbutton {
+    width: 80px;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 10px 5px;
+	  margin-left:4px;
+    box-sizing: border-box;
+}
+	
+}
+
+@media (max-width: 480px) {
+    .searchform .inputwidth,
+    .searchform .inputbutton {
+        width: 80%;
+        max-width: 100%;
+        font-size: 12px;
+        padding: 6px 3px;
+    }
+}
+@media (max-width: 480px) {
+    .searchform input.search-field,
+    .searchform input#searchsubmit {
+        width: auto;
+        max-width: 100%;
+        font-size: 12px;
+        padding: 14px 8px; /* Modify the padding to increase the height for smaller screens */
+    }
+}
+
+
+#secondary {background-color:#bd691e33;padding:5px;}
+
+.product-image {
+        position:relative;
+        float: left;
+        margin-right: 10px;
+    }
+.product-image img {
+        max-width: 200px;
+    }	
+
+#block-5, #block-140{background-color:#eee;margin-top:0px;margin-bottom:0px;padding-top:0px;    padding: 5px 5px;
+}
+
+#block-140 {position:relative;top:10px;}
+
+.sellerbutton {
+		width:100%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background-color: #1e73be;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    text-decoration: none !important;
+}
+
+.sellerbutton:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pricefilter{font-family:Anton;}
+
+tr.woocommerce-product-attributes-item.woocommerce-product-attributes-item--attribute_filename {
+    color: black;
+}
+
+tr.woocommerce-product-attributes-item.woocommerce-product-attributes-item--attribute_filename:hover {
+    color: white;
+}
+
+#tab-additional_information > table > tbody > tr.woocommerce-product-attributes-item.woocommerce-product-attributes-item--attribute_filename > td > p > a {
+    color: black;
+}
+
+#tab-additional_information > table > tbody > tr.woocommerce-product-attributes-item.woocommerce-product-attributes-item--attribute_filename > td > p > a:hover {
+    color: white;
+}
+
+#tab-additional_information > table > tbody > tr.woocommerce-product-attributes-item.woocommerce-product-attributes-item--attribute_sub-location > th {color:#000000;}
+
+#block-117 > p > strong > a, #block-117 > p, #block-117
+ {text-decoration:none!important;max-height:10px;padding-bottom:0px;}
+
+
+#site-navigation-menu-toggle {
+	background-color:#fff;
+	border-radius:5px;
+	padding-left:15px;
+	padding-right:28px;
+	padding-top:0px;
+	padding-bottom:0px;
+	height:40px;
+}
+
+
+
+
+
+
+
+.aws-wrapper {max-width:98%;position:relative;}
+
+.my-custom-header-div, .contactlinks {color:#fff;}
+
+
+#block-127 > h4 > a > mark {color:#fff!important}
+
+#block-127 > h4 > a, #block-127 > h4 > a > mark {text-decoration:none;background-color:#1e73be!important;}
+
+#block-127 > h4 {text-decoration:none;background-color:#1e73be;padding-top:5px;padding-bottom:5px;border-radius:2px;}
+
+
+
+
+.aligncenter {text-align:center;}
+
+
+.wc-block-components-price-slider__range-input-wrapper {background-color:#eee!important;color:#1e73be!important;}
+
+.summary.entry-summary > button > a {color:#fff;}
+
+div.bigredbutton > a {color:#fff;}
+div.summary.entry-summary > span > a{color:#fff;}
+
+.bigredbutton {background-color:#ff0000;max-width:140px;position:relative;padding-left:10px;padding-right:10px;padding-top:3px;padding-bottom:3px;border-radius:5px;}
+
+#page > section > div > div > a{ display:none;}
+#page > section {background-color:#fff;}
+
+#block-117 > p > strong > a, #block-117 > p, #block-117
+ {text-decoration:none!important;max-height:10px;padding-bottom:0px;}
+
+
+#site-navigation-menu-toggle {
+	background-color:#fff;
+	border-radius:5px;
+	padding-left:15px;
+	padding-right:28px;
+	padding-top:0px;
+	padding-bottom:0px;
+	height:40px;
+}
+
+
+
+#post-8779 > div.entry-content > div {display:none;}
+
+
+#block-106 .wp-block-heading a {
+  text-decoration: none!important;color:#fff;
+}
+
+div.su-tabs.su-tabs-style-default.su-tabs-mobile-stack.searchtabs > div.su-tabs-panes > div.su-tabs-pane.su-u-clearfix.su-u-trim.navtabs.su-tabs-pane-open { background-color:#1e73be!important;color:#fff; }
+
+#colophon > div > a, #block-115 > div > div > div.su-heading.su-heading-style-modern-1-blue.su-heading-align-center > div > a,#block-115 > div > div > div.su-heading.su-heading-style-modern-1-blue.su-heading-align-center > div > a:link, .su-heading-inner {text-decoration:none!important;color:#fff!important;
+}
+
+.su-heading .su-heading-inner {
+    color: #ffffff;
+}
+
+.su-heading-align-center > div > a, .su-heading-align-center > div > a:link {font-color:#fff!important;}
+
+
+.wpcf7-form-control {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+@media (min-width: 768px) {
+  /* Styles for desktop and tablet */
+  /* Add your CSS rules here */
+	#block-106 {margin-bottom:5px;}
+	#block-112 {margin-bottom:0px;}
+
+}
+
+	#search {margin:0px;}
+
+
+#main > header > div > div.wp-block-woocommerce-filter-wrapper > div > div > div > div > div.wc-block-price-filter__range-text.wc-block-components-price-slider__range-text > span:nth-child(1),#main > header > div > div.wp-block-woocommerce-filter-wrapper > div > div > div > div > div.wc-block-price-filter__range-text.wc-block-components-price-slider__range-text > span:nth-child(2) {color:#000!important;font-size:1.2em!important}
+
+
+
+/* Target the mobile menu dropdown */
+#site-navigation .handheld-navigation ul li {
+    /* Set the background color to white */
+    background-color: #ffffff;
+    /* Set the border color to faint grey */
+    border: 1px solid #d3d3d3;
+    /* Set the text color to black */
+    color: #000000;
+    /* Set the padding to make the buttons tighter */
+    padding-left: 10px;
+}
+
+/* Target the mobile menu dropdown links */
+#site-navigation .handheld-navigation ul li a {
+    /* Set the text color to black */
+    color: #000000;
+}
+
+@media (min-width: 615px) and (max-width: 1154px) {
+	.site-branding {font-size:.6em}
+}
+
+@media (min-width: 1154px) and (max-width: 1440px) {
+	.site-branding {font-size:1em}
+}
+
+
+.wc-block-components-price-slider__range-input-progress, .rtl .wc-block-components-price-slider__range-input-progress {
+    --range-color: #1e73be;
+	  }
+
+/* Common styles for different media queries */
+
+/* Default styles */
+div.su-image-carousel-item > div:nth-child(1) > a:nth-child(1) > span:nth-child(2) {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Price filter styles */
+.pricefilter {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+/* Product title styles */
+.wc-block-grid__product-title,
+#block-110 > div > ul > li > a,
+.whiteit {
+  text-decoration: none;
+}
+
+/* Site title styles */
+.site-title a {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Responsive styles for different screen sizes */
+
+/* Small devices (width <= 425px) */
+@media (max-width: 425px) {
+	#content > div > header {font-size:.6em;}
+	
+  div.su-image-carousel-item > div:nth-child(1) > a:nth-child(1) > span:nth-child(2) {
+    font-size: 0.6em;
+    text-align: center;
+    background-color: #1e73be;
+  }
+  .navtabs {
+    font-size: 0.6em;
+  }
+			.summary.entry-summary > h1 {font-size:1.4em;}
+
+}
+
+
+
+/* Semi Small devices (width => 426px AND <= 767)  */
+@media (min-width: 426px) and (max-width: 767px) {
+		#content > div > header {font-size:.6em;}
+
+  div.su-image-carousel-item > div:nth-child(1) > a:nth-child(1) > span:nth-child(2) {
+    font-size: 0.6em;
+    text-align: center;
+    background-color: #1e73be;
+  }
+  .navtabs {
+    font-size: 0.6em;
+  }
+		.summary.entry-summary > h1 {font-size:1.6em;}
+
+}
+
+/* Medium devices (width >= 768px and width <= 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+		#content > div > header {font-size:.6em;}
+  div.su-image-carousel-item > div:nth-child(1) > a:nth-child(1) > span:nth-child(2) {
+    font-size: 1.1em;
+    text-align: center;
+	}
+	.summary.entry-summary > h1 {font-size:1.4em;}
+
+}
+
+/* Large devices (width >= 1025px) */
+@media (min-width: 1025px) {
+  div.su-image-carousel-item > div:nth-child(1) > a:nth-child(1) > span:nth-child(2) {
+    font-size: 1.1em;
+    text-align: center;
+	}
+.summary.entry-summary > h1 {font-size:1.6em;}
+
+}
+
+/* Responsive styles for specific screen sizes */
+
+
+/* Medium devices (width >= 891px and width <= 1100px) */
+@media screen and (min-width: 891px) and (max-width: 1100px) {
+  .wc-block-components-checkbox__label,
+  .smaller,
+  h3,
+  .wp-block-group__inner-container,
+  #block-5 > div > div > h4 {
+    font-size: 0.6em;
+  }
+}
+
+/* Adjustments for specific elements */
+
+/* Search highlight */
+.highlight-search {
+  background-color: yellow;
+}
+
+/* Specific font-family */
+#main > header > div > div.su-heading.su-heading-style-modern-dark.su-heading-align-center > div,
+#content > div > div.su-heading.su-heading-style-modern-dark.su-heading-align-center > div {
+  font-family: Exo-2;
+}
+
+/* Footer styles */
+.site-footer {
+  background-color: #1e73be;
+}
+
+/* Product grid styles */
+ul.products li.product {
+  width: 46.411765%;
+  float: left;
+  margin-right: 5.8823529412%;
+}
+
+ul.products li.product:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  ul.products li.product:nth-of-type(2n) {
+    margin-right: 5.8823529412%;
+  }
+	
+}
+
+/* Hide specific elements */
+
+div.summary.entry-summary > form,
+#masthead > div.col-full > div.site-branding > p,
+.storefront-handheld-footer-bar,
+.add_to_cart_button,
+.button.product_type_simple,
+#main > header > h1,
+#colophon > div > div.site-info > a,
+#site-header-cart,
+a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart,
+form.woocommerce-ordering:nth-child(2) > select:nth-child(1) > option:nth-child(1),
+form.woocommerce-ordering:nth-child(2) > select:nth-child(1) > option:nth-child(2),
+form.woocommerce-ordering:nth-child(1) > select:nth-child(1) > option:nth-child(1),
+form.woocommerce-ordering:nth-child(1) > select:nth-child(1) > option:nth-child(2),
+.site-header .site-search,
+#site-navigation > div:nth-child(2) {
+  display: none;
+}
+
+/* Adjust input box width and column size */
+
+/* Adjust the width of the input boxes */
+.wc-block-form-text-input {
+  width: 120px;
+}
+
+/* Adjust the column size */
+.wc-block-price-filter__range-input-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+
+
+
+
+/* end the paste from theme */
+
+
+.my-custom-header-div {
+    /* your CSS properties */
+	color:#fff;
+}
+
+
+  #woocommerce_products-2 > ul > li > a {text-decoration:none;}
+
+
+.site-header .site-title a {
+    background-color: white;
+    padding: 5px 5px; 
+	border-radius:5px;
+}
+
+		#masthead > div.col-full > div.site-branding > p {display:none;}
+
+.single-product {
+	#sp-woo-product-slider-17049 {display:none;}
+}
+
+
+/* Adjust the width of the input boxes */
+.wc-block-form-text-input {
+  width: 120px; /* Adjust the value as needed */
+}
+
+/* Adjust the column size */
+.wc-block-price-filter__range-input-wrapper {
+  width: 70%; /* Adjust the value as needed */
+  margin: auto; /* Center the column */
+}
+
+@media only screen and (max-width: 480px){
+  .site-header a {
+    font-size: 18px; 
+  }
+	
+.wp-block-heading {font-size:.8em;
+}	
+	#main > header > div > h3}
+}
+
+.highlight-search {
+    background-color: yellow;
+}
+	
+#main > header > div > div.su-heading.su-heading-style-modern-dark.su-heading-align-center > div {font-family:Exo-2}
+
+#content > div > div.su-heading.su-heading-style-modern-dark.su-heading-align-center > div {background-color:#000;color:#fff;}
+
+.storefront-handheld-footer-bar {display:none;}
+
+ul.products li.product {
+	width: 46.411765%;
+	float: left;
+	margin-right: 5.8823529412%;
+}
+
+ul.products li.product:nth-of-type( 2n ) {
+	margin-right: 0;
+}
+
+@media ( min-width: 768px ) {
+	ul.products li.product:nth-of-type( 2n ) {
+		margin-right: 5.8823529412%;
+	}
+}
+
+
+div.summary.entry-summary > form {display:none;}
+
+
+#site-navigation > div:nth-child(2) {display:none}
+
+.add_to_cart_button {display:none;}
+
+.button.product_type_simple{display:none;}
+
+#main > header > h1 {visibility:hidden;display:none;}
+
+#colophon > div > div.site-info > a {display: none;visibility:hidden;}
+
+#site-header-cart {display:none;}
+
+#main > header > div > div.sue-panel.searchbar > div > div.wpaicg-chat-shortcode > div.wpaicg-chatbox-action-bar {background-color:#fff;}
+
+#main > header > div > div.su-heading.su-heading-style-modern-dark.su-heading-align-center > div {background-color:#000;color:#fff;}
+
+a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {display:none;}
+
+form.woocommerce-ordering:nth-child(2) > select:nth-child(1) > option:nth-child(1),form.woocommerce-ordering:nth-child(2) > select:nth-child(1) > option:nth-child(2),form.woocommerce-ordering:nth-child(1) > select:nth-child(1) > option:nth-child(1),form.woocommerce-ordering:nth-child(1) > select:nth-child(1) > option:nth-child(2) {display:none;}
+
+.site-header .site-search { display: none; }
