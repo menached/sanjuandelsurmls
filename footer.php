@@ -26,7 +26,7 @@
 			 */
 			//do_action( 'storefront_footer' );
 			?>
-<?php echo "<a style=\"color:#fff;\" class=whiteit href=/>2023 Nicaragua MLS</a> "; ?>
+<a class="whiteit" href=/>2023 Nicaragua MLS</a> 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
 

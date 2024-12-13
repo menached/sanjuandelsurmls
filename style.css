@@ -9,6 +9,13 @@ Version: 4.3.0
 */
 
 
+@media (min-width: 768px) {
+  .main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+    padding: .2em 1em;
+    border:1px solid #ddd;
+  }
+}
+
 #sidebartitle {
   font-size: 1.2em; /* Default size for very small screens (below 400px) */
 }
@@ -109,6 +116,7 @@ body {
 }
 
 /*a .whiteit, .site-footer {text-decoration:none!important; }*/
+.whiteit {color: #fff!important;text-decoration:none!important; }
 
 h1, .alpha {
   /*font-size: 2.2em; [> Default for most devices <]*/
