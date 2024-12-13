@@ -8,6 +8,61 @@ Description: Storefront is the perfect theme for your next WooCommerce project. 
 Version: 4.3.0
 */
 
+
+#sidebartitle {
+  font-size: 1.2em; /* Default size for very small screens (below 400px) */
+}
+
+@media screen and (min-width: 382px) and (max-width: 767px) {
+  #sidebartitle {
+    font-size: 2.5em; /* Medium size for screens between 400px and 768px */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 815px) {
+  #sidebartitle {
+    font-size: 1.5em; /* Size for screens between 768px and 939px */
+  }
+}
+@media screen and (min-width: 815px) and (max-width: 939px) {
+  #sidebartitle {
+    font-size: 1.65em; /* Size for screens between 768px and 939px */
+  }
+}
+
+@media screen and (min-width: 939px) and (max-width: 949px) {
+  #sidebartitle {
+    font-size: 1.70em; /* Slightly smaller size to prevent wrapping */
+  }
+}
+
+@media screen and (min-width: 950px) {
+  #sidebartitle {
+    font-size: 1.7em; /* Larger font for screens above 950px */
+  }
+}
+
+
+
+
+#sidebartitle, .wc-blocks-filter-wrapper {
+    /*font-size:24px;*/
+    margin-bottom:0px; 
+    font-family: 'Exo 2', sans-serif;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+.wc-block-attribute-filter {padding:20px;}
+.wp-block-woocommerce-filter-wrapper { border-bottom-right-radius:20px; border-bottom-left-radius:20px;}
+.wc-block-price-slider {padding:20px;}
+
+#nicamlslink {
+    text-decoration:none;
+}
+#animationwrap {
+    width:100%;
+}
+
 #masthead {
     margin: 0;
     padding: 0;
@@ -53,9 +108,53 @@ body {
     }
 }
 
+/*a .whiteit, .site-footer {text-decoration:none!important; }*/
+
+h1, .alpha {
+  /*font-size: 2.2em; [> Default for most devices <]*/
+  /*line-height: 1.214;*/
+  /*letter-spacing: -1px;*/
+  /*white-space: nowrap; [> Prevent wrapping <]*/
+}
+
+@media screen and (max-width: 1024px) {
+  h1, .alpha {
+    font-size: 2em; /* Slightly smaller for tablets */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1, .alpha {
+    font-size: 1.8em; /* Smaller for mobile devices */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1, .alpha {
+    font-size: 1.5em; /* Smallest for very small screens */
+  }
+}
+
+.woocommerce-products-header__title {
+  font-size: 1.6em; /* Default for larger screens */
+}
+
+@media screen and (max-width: 767px) {
+  .woocommerce-products-header__title {
+    font-size: 1.0em; /* Smaller font size for mobile devices */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 938px) {
+  .su-heading-inner > a:nth-child(1) {
+    font-size: .9em; /* Adjust font size as needed */
+  }
+}
+
+
 /* Custom Block Styling */
 #block-148 > div > div {
-    color: #1e73be !important;
+    /*color: #1e73be !important;*/
     text-align: center;
 }
 
