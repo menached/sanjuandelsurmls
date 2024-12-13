@@ -50,7 +50,21 @@ Version: 4.3.0
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .wc-block-attribute-filter {font-size:.7em;}
+}
 
+@media screen and (max-width: 768px) {
+    h3.has-background {padding-top:2px;padding-bottom:2px;border-top-left-radius:10px;border-top-right-radius:10px;}
+    h3 {font-size:2em!important;}
+    .wc-block-attribute-filter {font-size:1.7em;}
+}
+
+@media screen and (min-width: 1024px) {
+    h3.has-background {padding-top:2px;padding-bottom:2px;border-top-left-radius:10px;border-top-right-radius:10px;}
+    h3 {font-size:1.5em!important;}
+    .wc-block-attribute-filter {font-size:1.1em;}
+}
 
 #sidebartitle, .wc-blocks-filter-wrapper {
     /*font-size:24px;*/
@@ -59,7 +73,9 @@ Version: 4.3.0
     border:1px solid #ddd;
     border-radius:10px;
 }
-.wc-block-attribute-filter {padding:20px;}
+
+.wc-block-attribute-filter {padding:5px;}
+
 .wp-block-woocommerce-filter-wrapper { border-bottom-right-radius:20px; border-bottom-left-radius:20px;}
 .wc-block-price-slider {padding:20px;}
 
