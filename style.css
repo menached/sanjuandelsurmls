@@ -29,6 +29,10 @@ Version: 4.3.0
 }
 
 
+.my-custom-header-div {display:none;}
+
+
+
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -93,7 +97,7 @@ body {
 
 /* Sidebar Background Styling */
 #secondary {
-    background-color: #bd691e33;
+    background-color: #fff;
     padding: 5px;
 }
 
