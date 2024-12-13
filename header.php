@@ -48,6 +48,13 @@
 		 */
 		do_action( 'storefront_header' );
 		?>
+    <form role="search" method="get" id="searchform" class="searchform" action="https://sanjuandelsurmls.com/">
+        <div class="wrapelements">
+            <label class="screen-reader-text" for="s">Property search:</label>
+            <input class="inputwidth" type="text" value="" name="s" id="s" placeholder="Keyword search">
+            <input class="inputbutton" type="submit" id="searchsubmit" value="Search">
+        </div>
+    </form>
 
 	</header><!-- #masthead -->
 

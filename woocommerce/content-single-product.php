@@ -44,13 +44,6 @@ if ( post_password_required() ) {
 ?>
 <?php //get_search_form(); ?>
 
-<form role="search" method="get" id="searchform" class="searchform" action="https://sanjuandelsurmls.com/">
-    <div class="wrapelements"><label class="screen-reader-text" for="s">Property search:</label>
-    <input class="inputwidth" type="text" value="" name="s" id="s" placeholder="Keyword search">
-    <input class="inputbutton" type="submit" id="searchsubmit" value="Search">
-    </div>
-    </form>
-
 
 
 
@@ -108,7 +101,6 @@ if ( post_password_required() ) {
 
     echo do_shortcode(' [su_tabs vertical="no" anchor_in_url="yes" class="searchtabs"]
         [su_tab anchor="contactus" title="Contact us!" class="navtabs"] [contact-form-7 id="17485" title="Real Estate Inquiry"] [/su_tab]
-        [su_tab url="#search" target="self" title="Search" class="navtabs"][woocommerce_product_search_form][/su_tab]
         [su_tab anchor="myai" title="MLS Mario GPT-4 AI Real Estate Agent" class="navtabs"] [wpaicg_chatgpt] [/su_tab]
         [su_tab url="https://sanjuandelsurmls.com/preparing-your-nicaraguan-home-listing-with-nicaraguanmls-your-trusted-real-estate-partners/" target="self" anchor="getlisted" title="Sellers get listed!" class="navtabs"] <h2>Get listed</h2><a href=https://sanjuandelsurmls.com>Sellers get listed!</a> [/su_tab]
         [/su_tabs] ');
